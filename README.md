@@ -4,13 +4,16 @@ A loopback example with vue 2.0 and loopback-component-passport.
 
 ##How to use
 
+```bash
+npm install
+```
+
 DEV:
 ```bash
 npm run dev
 ```
 
 PROD:
-
 ```bash
 npm run prod
 ```
