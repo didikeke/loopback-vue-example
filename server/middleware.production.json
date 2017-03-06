@@ -1,0 +1,7 @@
+{
+  "files": {
+    "loopback#static": {
+      "enabled": true
+    }
+  }
+}
