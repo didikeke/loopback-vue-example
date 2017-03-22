@@ -4,7 +4,7 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node .",
-    "dev": "node_modules/nodemon/bin/nodemon.js server/server.js",
+    "dev": "node_modules/nodemon/bin/nodemon.js server/server.js --ignore src/",
     "build": "node build/build.js",
     "prod": "npm run build; NODE_ENV=production npm run start",
     "lint": "eslint --ext .js,.vue src"
