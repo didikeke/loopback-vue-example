@@ -9,7 +9,7 @@ module.exports = function(app) {
       if (0 === count) {
         User.create({
           username: 'admin',
-          email: 'loopbackb@didikeke.com',
+          email: 'loopback@didikeke.com',
           password: 'admin',
           emailVerified: true
         }, callback);
