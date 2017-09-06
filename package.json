@@ -4,7 +4,7 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node .",
-    "dev": "node_modules/nodemon/bin/nodemon.js server/server.js --ignore src/",
+    "dev": "node_modules/nodemon/bin/nodemon.js server/server.js --ignore src/ --ignore static/",
     "build": "node build/build.js",
     "prod": "npm run build; NODE_ENV=production npm run start",
     "lint": "eslint --ext .js,.vue src"
@@ -29,8 +29,9 @@
     "passport-local": "^1.0.0",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^1.0.1",
-    "vue": "^2.2.1",
-    "vue-router": "^2.2.0"
+    "vue": "^2.4.1",
+    "vue-template-compiler": "^2.4.1",
+    "vue-router": "^2.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -71,7 +72,6 @@
     "url-loader": "^0.5.7",
     "vue-loader": "^11.1.4",
     "vue-style-loader": "^2.0.0",
-    "vue-template-compiler": "^2.2.1",
     "webpack": "^2.2.1",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.10.0",
